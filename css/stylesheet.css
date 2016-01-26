@@ -1,0 +1,133 @@
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 660px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+nav{
+background-color: rgba(255, 255, 255, 0.9);
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-bottom: 20px;
+padding-top: 10px;
+padding-right: 10px;
+
+}
+.outerwrapper{
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 80%;
+	margin-left: auto;
+  margin-right: auto;
+}
+header{
+  margin-top: 120px;
+  margin-bottom: 50px;
+
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+h1{
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  font-size: 40pt;
+  font-style:normal;
+  color: white;
+
+  padding-bottom: 25px;
+	margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+h2{
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  font-size: 35pt;
+  font-style:normal;
+  color:grey;
+  border-bottom: 1px solid  grey;
+  padding-bottom: 25px;
+}
+body{
+  background-color: white;
+	background: url(../images/IMG_3003_13x18.jpg) no-repeat fixed;
+	background-size: cover;
+  font-family:'Roboto', sans-serif;
+	display: flex;
+  flex-flow: row wrap;
+}
+
+header, nav, footer{
+  flex: 1 100%;
+}
+
+
+.main-nav{
+  display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+   font-family: Helvetica;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: black;
+}
+.main-nav a:hover {
+  color: grey;
+  transition-timing-function: 0,5s;
+	border-bottom: solid  grey 5px;
+
+}
+
+.image{
+  display: flex;
+  text-align: center;
+  justify-content:space-between;
+    width: 280px;
+    height: 200px;
+}
+
+.images{
+  text-align: center;
+  flex direction: row;
+
+}
+
+.wrappersites{
+  margin-left: auto;
+  margin-right: auto;
+  width: 660px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.main-nav-sites{
+  display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   align-items: baseline;
+   font-family: Helvetica;
+ }
+
+.main-nav-sites a {
+  text-decoration: none;
+  color: black;
+}
+.main-nav-sites a:hover {
+  color: lightgrey;
+  transition-timing-function: 0,5s;
+}
