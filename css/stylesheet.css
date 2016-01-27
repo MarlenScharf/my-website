@@ -4,41 +4,49 @@
 
   width: 660px;
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   padding-top: 10px;
   padding-right: 10px;
 }
-nav{
+.main-nav{
 background-color: rgba(255, 255, 255, 0.9);
 width: 100%;
-margin-left: auto;
-margin-right: auto;
 padding-left: 20px;
 padding-bottom: 20px;
 padding-top: 10px;
 padding-right: 10px;
-
 }
+
+.main-nav dt {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
 .outerwrapper{
 	background-color: rgba(255, 255, 255, 0.9);
-	width: 80%;
-	margin-left: auto;
+	width: 85%;
+	margin-top: 10%;
+  border-top: 10%;
+  padding-top: 10%;
+  margin-left: auto;
   margin-right: auto;
 }
-header{
-  margin-top: 120px;
-  margin-bottom: 50px;
 
-  padding-left: 20px;
-  padding-bottom: 20px;
+header{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-bottom: 0px;
   padding-top: 10px;
   padding-right: 10px;
 }
 
 h1{
   text-align: center;
-  font-family:'Roboto', sans-serif;
-  font-size: 40pt;
+  font-family: 'Amatic SC',cursive;
+  font-size: 75pt;
   font-style:normal;
   color: white;
 
@@ -51,7 +59,7 @@ h1{
 
 h2{
   text-align: center;
-  font-family:'Roboto', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 35pt;
   font-style:normal;
   color:grey;
@@ -62,7 +70,7 @@ body{
   background-color: white;
 	background: url(../images/IMG_3003_13x18.jpg) no-repeat fixed;
 	background-size: cover;
-  font-family:'Roboto', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 	display: flex;
   flex-flow: row wrap;
 }
@@ -70,7 +78,6 @@ body{
 header, nav, footer{
   flex: 1 100%;
 }
-
 
 .main-nav{
   display: flex;
@@ -84,9 +91,9 @@ header, nav, footer{
   text-decoration: none;
   color: black;
 }
-.main-nav a:hover {
+.main-nav li:hover {
   color: grey;
-  transition-timing-function: 0,5s;
+  transition-timing-function: 0.8s;
 	border-bottom: solid  grey 5px;
 
 }
@@ -122,12 +129,37 @@ header, nav, footer{
    align-items: baseline;
    font-family: Helvetica;
  }
-
+.link a hover
 .main-nav-sites a {
   text-decoration: none;
   color: black;
 }
 .main-nav-sites a:hover {
   color: lightgrey;
-  transition-timing-function: 0,5s;
+  transition-timing-function: 0.5s;
+}
+
+
+li{
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+  padding-bottom: 21px;
+  padding-bottom: 21px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+ul {
+  margin: 15px auto 5px;
+}
+
+li a {
+  padding-right: 10px;
+}
+
+
+@media screen and (max-width: 630px) {
+  li {
+    display: block;
+  }
 }
