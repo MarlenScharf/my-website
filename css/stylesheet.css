@@ -2,7 +2,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  width: 660px;
+  width: 1000px;
   padding-left: 20px;
   padding-bottom: 0px;
   padding-top: 10px;
@@ -26,7 +26,7 @@ padding-right: 10px;
 
 .outerwrapper{
 	background-color: rgba(255, 255, 255, 0.9);
-	width: 85%;
+	width: 100%;
 	margin-top: 10%;
   border-top: 10%;
   padding-top: 10%;
@@ -59,16 +59,26 @@ h1{
 
 h2{
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 35pt;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30pt;
   font-style:normal;
-  color:grey;
-  border-bottom: 1px solid  grey;
-  padding-bottom: 25px;
+  color:lightgrey;
+  border-bottom: 2px solid  lightgrey;
+  padding-bottom: 10px;
+}
+
+h6{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30pt;
+  font-style:normal;
+  color:lightgrey;
+  border-bottom: 2px solid  lightgrey;
+  padding-bottom: 20px;
 }
 body{
   background-color: white;
-	background: url(../images/IMG_3003_13x18.jpg) no-repeat fixed;
+	background: url(../images/1.jpg) no-repeat fixed;
 	background-size: cover;
   font-family: 'Open Sans Condensed', sans-serif;
 	display: flex;
@@ -92,18 +102,26 @@ header, nav, footer{
   color: black;
 }
 .main-nav li:hover {
-  color: grey;
+  color: #b6b5b6;
   transition-timing-function: 0.8s;
-	border-bottom: solid  grey 5px;
+	border-bottom: solid  #b6b5b6 3px;
 
 }
 
 .image{
-  display: flex;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  width: auto;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
   text-align: center;
   justify-content:space-between;
-    width: 280px;
-    height: 200px;
+
+    height: 400px;
 }
 
 .images{
@@ -129,23 +147,29 @@ header, nav, footer{
    align-items: baseline;
    font-family: Helvetica;
  }
-.link a hover
+.link a:hover
 .main-nav-sites a {
   text-decoration: none;
-  color: black;
+  color: lightgrey;
 }
 .main-nav-sites a:hover {
   color: lightgrey;
   transition-timing-function: 0.5s;
 }
 
+a {
+  color: grey;
+}
+a:hover {
+  color:grey;
+}
 
 li{
   list-style: none;
   display: inline;
   padding-left: 20px;
-  padding-bottom: 21px;
-  padding-bottom: 21px;
+  padding-bottom: 23px;
+  padding-bottom: 23px;
   padding-top: 10px;
   padding-right: 10px;
 }
@@ -161,5 +185,7 @@ li a {
 @media screen and (max-width: 630px) {
   li {
     display: block;
+    text-align: center;
   }
+
 }
