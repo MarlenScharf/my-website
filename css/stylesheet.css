@@ -1,3 +1,12 @@
+body{
+  background-color: white;
+	background: url(../images/1.jpg) no-repeat fixed;
+	background-size: cover;
+  font-family: 'Open Sans Condensed', sans-serif;
+	display: flex;
+  flex-flow: row wrap;
+}
+
 .wrapper{
   margin-left: auto;
   margin-right: auto;
@@ -10,11 +19,15 @@
 }
 .main-nav{
 background-color: rgba(255, 255, 255, 0.9);
-width: 100%;
+max-width: 690px;
+margin: 0 auto;
 padding-left: 20px;
 padding-bottom: 20px;
 padding-top: 10px;
 padding-right: 10px;
+
+
+
 }
 
 .main-nav dt {
@@ -35,60 +48,62 @@ padding-right: 10px;
 }
 
 header{
-  margin-top: 50px;
-  margin-bottom: 0px;
-  padding-left: 50px;
-  padding-bottom: 0px;
-  padding-top: 10px;
-  padding-right: 10px;
+  margin-top: 60px;
+}
+
+h1,h2,h6 {
+  font-family: 'Amatic SC',cursive;
+  text-align: center;
+  font-style:normal;
 }
 
 h1{
-  text-align: center;
-  font-family: 'Amatic SC',cursive;
   font-size: 75pt;
-  font-style:normal;
   color: white;
-
   padding-bottom: 25px;
 	margin-left: auto;
   margin-right: auto;
-
-
 }
 
-h2{
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
+h2 {
   font-size: 30pt;
-  font-style:normal;
   color:lightgrey;
-  border-bottom: 2px solid  lightgrey;
-  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
-h6{
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
+h6 {
   font-size: 30pt;
-  font-style:normal;
   color:lightgrey;
-  border-bottom: 2px solid  lightgrey;
-  padding-bottom: 20px;
+  padding-left: 10px;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  padding: 20px;
+  width: 930px;
+  margin-left: 8px;
+  margin-top: 100px;
 }
-body{
-  background-color: white;
-	background: url(../images/1.jpg) no-repeat fixed;
-	background-size: cover;
-  font-family: 'Open Sans Condensed', sans-serif;
-	display: flex;
-  flex-flow: row wrap;
+
+.text {
+  width: 100%;
+  margin-top: -50px;
 }
+
 
 header, nav, footer{
   flex: 1 100%;
 }
 
+.Untertitel{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30pt;
+  font-style:normal;
+  color:lightgrey;
+  padding-bottom: 20px;
+
+}
 .main-nav{
   display: flex;
    justify-content: space-between;
@@ -101,11 +116,10 @@ header, nav, footer{
   text-decoration: none;
   color: black;
 }
-.main-nav li:hover {
+.main-nav li:hover, .active {
   color: #b6b5b6;
   transition-timing-function: 0.8s;
 	border-bottom: solid  #b6b5b6 3px;
-
 }
 
 .image{
@@ -120,7 +134,6 @@ header, nav, footer{
   padding-right: 5px;
   text-align: center;
   justify-content:space-between;
-
     height: 400px;
 }
 
@@ -160,7 +173,7 @@ header, nav, footer{
 a {
   color: grey;
 }
-a:hover {
+a:hover, .active a {
   color:grey;
 }
 
@@ -169,16 +182,21 @@ li{
   display: inline;
   padding-left: 20px;
   padding-bottom: 23px;
-  padding-bottom: 23px;
   padding-top: 10px;
   padding-right: 10px;
 }
 ul {
   margin: 15px auto 5px;
+  padding:0;
 }
 
 li a {
   padding-right: 10px;
+}
+
+.footer {
+  background-color: white;
+  width: 100%;
 }
 
 

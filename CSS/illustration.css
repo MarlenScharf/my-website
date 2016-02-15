@@ -8,6 +8,17 @@
   padding-top: 10px;
   padding-right: 10px;
 }
+#facebook{
+
+  height:"20"
+  hspace:"5"
+  vspave:"5"
+  padding: 80px 500px 50px 10px;
+  width: 50%;
+  
+
+
+}
 .main-nav{
 background-color: rgba(255, 255, 255, 0.9);
 width: 100%;
